@@ -1,0 +1,2582 @@
+[ 2016-11-15T17:12:46+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/
+[ log ] 127.0.0.1/bick/public/ [运行时间：0.429025s][吞吐率：2.33req/s] [内存消耗：1,236.92kb] [文件加载：42]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpStudy\WWW\bick\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:13:27+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.089005s][吞吐率：11.24req/s] [内存消耗：1,217.26kb] [文件加载：43]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:19:01+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：1,218.24kb] [文件加载：43]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:19:08+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst [运行时间：0.119007s][吞吐率：8.40req/s] [内存消耗：1,346.99kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:25:20+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：1,383.11kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:25:48+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,391.00kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:26:20+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst.html [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,391.10kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:29:20+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst.html [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,391.13kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:29:22+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,388.14kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:30:25+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,388.37kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:30:26+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst.html [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,262.16kb] [文件加载：44]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:30:29+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,262.31kb] [文件加载：44]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:32:04+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,387.97kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:32:39+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,387.99kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:39:24+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：1,286.93kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:39:31+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,287.38kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:40:05+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,002.13kb] [文件加载：36]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:40:37+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,001.16kb] [文件加载：36]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:40:46+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,002.05kb] [文件加载：36]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:45:51+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,389.03kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:45:52+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,263.42kb] [文件加载：44]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:45:54+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,003.01kb] [文件加载：36]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:46:27+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.105006s][吞吐率：9.52req/s] [内存消耗：1,540.08kb] [文件加载：44]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] INSERT INTO `bk_admin` (`name` , `password`) VALUES ('1' , '2')    [ RunTime:0.034002s ]
+
+---------------------------------------------------------------
+[ 2016-11-15T17:47:53+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,263.32kb] [文件加载：44]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:47:56+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：1,477.98kb] [文件加载：42]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] INSERT INTO `bk_admin` (`name` , `password`) VALUES ('1' , '2')    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-15T17:47:59+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,263.32kb] [文件加载：44]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:48:06+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,477.98kb] [文件加载：42]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] INSERT INTO `bk_admin` (`name` , `password`) VALUES ('1' , '2')    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-15T17:49:41+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,263.77kb] [文件加载：44]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:50:18+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：1,578.99kb] [文件加载：48]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] INSERT INTO `bk_admin` (`name` , `password`) VALUES ('1' , '2')    [ RunTime:0.000000s ]
+[ error ] [1]Call to undefined method app\admin\controller\Admin::success()[F:\phpStudy\WWW\bick\application\admin\controller\Admin.php:17]
+
+---------------------------------------------------------------
+[ 2016-11-15T17:51:40+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,579.09kb] [文件加载：48]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] INSERT INTO `bk_admin` (`name` , `password`) VALUES ('1' , '2')    [ RunTime:0.001000s ]
+[ error ] [1]Call to undefined method app\admin\controller\Admin::success()[F:\phpStudy\WWW\bick\application\admin\controller\Admin.php:17]
+
+---------------------------------------------------------------
+[ 2016-11-15T17:51:48+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,263.76kb] [文件加载：44]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T17:52:25+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.116007s][吞吐率：8.62req/s] [内存消耗：1,914.48kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] INSERT INTO `bk_admin` (`name` , `password`) VALUES ('1' , '2')    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-15T17:52:28+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst.html [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：1,302.80kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T20:37:03+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：1,260.96kb] [文件加载：44]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T20:37:18+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst.html [运行时间：0.059004s][吞吐率：16.95req/s] [内存消耗：1,302.71kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T20:37:20+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,302.88kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T20:37:23+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.230013s][吞吐率：4.35req/s] [内存消耗：1,799.14kb] [文件加载：53]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'f',
+  'password' => 'f',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052003s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.075004s ]
+[ sql ] [ SQL ] INSERT INTO `bk_admin` (`name` , `password`) VALUES ('f' , 'f')    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-15T20:37:27+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst.html [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,302.80kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T20:37:50+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,302.88kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T20:38:42+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.142008s][吞吐率：7.04req/s] [内存消耗：1,286.23kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'e',
+  'password' => 'e',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\admin\controller\Db' not found[F:\phpStudy\WWW\bick\application\admin\controller\Admin.php:15]
+
+---------------------------------------------------------------
+[ 2016-11-15T20:39:07+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：1,799.29kb] [文件加载：53]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'e',
+  'password' => 'e',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] INSERT INTO `bk_admin` (`name` , `password`) VALUES ('e' , 'e')    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-15T20:39:10+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst.html [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,302.80kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T20:39:46+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,302.88kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T20:39:48+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：1,799.25kb] [文件加载：53]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'a',
+  'password' => 'a',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] INSERT INTO `bk_admin` (`name` , `password`) VALUES ('a' , 'a')    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-15T20:39:51+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst.html [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,302.82kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T20:40:26+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,302.88kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T20:40:30+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,623.31kb] [文件加载：50]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '19',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '111',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->add[F:\phpStudy\WWW\bick\thinkphp\library\think\db\Query.php:91]
+
+---------------------------------------------------------------
+[ 2016-11-15T20:45:09+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst.html [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,302.88kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T20:45:10+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,302.88kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T23:17:30+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,286.28kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '2',
+  'password' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\admin\controller\DB' not found[F:\phpStudy\WWW\bick\application\admin\controller\Admin.php:15]
+
+---------------------------------------------------------------
+[ 2016-11-15T23:18:15+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：1,286.13kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '2',
+  'password' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\DB' not found[F:\phpStudy\WWW\bick\application\admin\controller\Admin.php:15]
+
+---------------------------------------------------------------
+[ 2016-11-15T23:19:08+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：1.089062s][吞吐率：0.92req/s] [内存消耗：1,799.29kb] [文件加载：53]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '2',
+  'password' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.572032s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.266016s ]
+[ sql ] [ SQL ] INSERT INTO `bk_admin` (`name` , `password`) VALUES ('2' , '2')    [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2016-11-15T23:19:12+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,302.80kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T23:19:17+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：1,302.89kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T23:19:21+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,286.23kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\admin\controller\Db' not found[F:\phpStudy\WWW\bick\application\admin\controller\Admin.php:15]
+
+---------------------------------------------------------------
+[ 2016-11-15T23:19:54+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：1,302.88kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T23:20:18+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：1,799.25kb] [文件加载：53]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] INSERT INTO `bk_admin` (`name` , `password`) VALUES ('1' , '2')    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-15T23:20:21+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst.html [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,302.82kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T23:21:43+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,084.37kb] [文件加载：40]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'[F:\phpStudy\WWW\bick\application\admin\controller\Admin.php:16]
+
+---------------------------------------------------------------
+[ 2016-11-15T23:22:04+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：1,302.88kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T23:22:08+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：1,763.85kb] [文件加载：52]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.admin' doesn't exist[F:\phpStudy\WWW\bick\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2016-11-15T23:22:30+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：1,799.21kb] [文件加载：53]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] INSERT INTO `bk_admin` (`name` , `password`) VALUES ('1' , '1')    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-15T23:22:33+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst.html [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,302.82kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T23:22:46+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,302.88kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T23:22:49+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,799.21kb] [文件加载：53]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '3',
+  'password' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] INSERT INTO `bk_admin` (`name` , `password`) VALUES ('3' , '3')    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-15T23:22:52+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst.html [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,302.82kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T23:33:27+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,084.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'Admin' (T_STRING)[F:\phpStudy\WWW\bick\application\admin\controller\Admin.php:17]
+
+---------------------------------------------------------------
+[ 2016-11-15T23:36:31+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,302.65kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T23:36:38+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.132008s][吞吐率：7.58req/s] [内存消耗：1,699.73kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '9',
+  'password' => '9',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T23:38:03+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：1,724.48kb] [文件加载：48]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '9',
+  'password' => '9',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T23:42:45+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,302.59kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T23:42:56+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,821.31kb] [文件加载：52]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '9',
+  'password' => '9',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bick.admin' doesn't exist[F:\phpStudy\WWW\bick\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2016-11-15T23:43:30+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,852.30kb] [文件加载：50]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '9',
+  'password' => '9',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] INSERT INTO `bk_admin` (`name` , `password`) VALUES ('9' , '9')    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-15T23:45:03+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.079005s][吞吐率：12.66req/s] [内存消耗：1,966.11kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '17',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => '9',
+  'password' => '9',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.030002s ]
+[ sql ] [ SQL ] INSERT INTO `bk_admin` (`name` , `password`) VALUES ('9' , '9')    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-15T23:45:06+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst.html [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：1,302.78kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T23:51:36+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/add.html [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,302.88kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->add[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-15T23:51:43+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst.html [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,302.78kb] [文件加载：46]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

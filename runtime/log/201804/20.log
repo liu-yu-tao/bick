@@ -1,0 +1,442 @@
+---------------------------------------------------------------
+[ 2018-04-20T08:49:00+08:00 ] 0.0.0.0 GET /bick/public/admin/index
+[ info ] localhost/bick/public/admin/index [运行时间：2.087345s][吞吐率：0.48req/s] [内存消耗：2,730.15kb] [文件加载：52]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3371.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\PHP\xiangmu\bick\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-20T08:49:04+08:00 ] 0.0.0.0 GET /bick/public/admin/login/index
+[ info ] localhost/bick/public/admin/login/index [运行时间：0.222246s][吞吐率：4.50req/s] [内存消耗：2,734.71kb] [文件加载：51]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3371.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/admin/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984; PHPSESSID=9c1hdhtko4h08k6kpg1pbf6hp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ F:\PHP\xiangmu\bick\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] F:\PHP\xiangmu\bick\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-20T08:49:11+08:00 ] 0.0.0.0 GET /bick/public/captcha
+[ info ] localhost/bick/public/captcha [运行时间：5.377994s][吞吐率：0.19req/s] [内存消耗：2,178.66kb] [文件加载：39]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3371.0 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/admin/login/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984; PHPSESSID=9c1hdhtko4h08k6kpg1pbf6hp1',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\PHP\xiangmu\bick\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-20T08:49:24+08:00 ] 0.0.0.0 POST /bick/public/admin/login/checklogin
+[ info ] localhost/bick/public/admin/login/checklogin [运行时间：1.727830s][吞吐率：0.58req/s] [内存消耗：4,673.05kb] [文件加载：62]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3371.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/admin/login/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984; PHPSESSID=9c1hdhtko4h08k6kpg1pbf6hp1',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => '4027',
+)
+[ info ] [ RUN ] app\admin\controller\Login->checklogin[ F:\PHP\xiangmu\bick\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\PHP\xiangmu\bick\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.155073s ] mysql:host=127.0.0.1;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.236969s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` WHERE  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.006375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group_access` [ RunTime:0.118066s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `bk_auth_group_access` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.002315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.083964s ]
+[ sql ] [ SQL ] SELECT `rules` FROM `bk_auth_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.040065s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.137810s ]
+[ sql ] [ SQL ] SELECT `name` FROM `bk_auth_rule` WHERE  `id` IN (15,16,19,18,17,1,9,11,14,13,12,2,3,20,10,4,21,22,23,24,26,27,28,29,30,32,33,34,35,36,0) [ RunTime:0.054679s ]
+---------------------------------------------------------------
+[ 2018-04-20T08:49:26+08:00 ] 0.0.0.0 GET /bick/public/admin/index/index
+[ info ] localhost/bick/public/admin/index/index [运行时间：0.090162s][吞吐率：11.09req/s] [内存消耗：2,752.06kb] [文件加载：52]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3371.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/admin/login/checklogin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984; PHPSESSID=9c1hdhtko4h08k6kpg1pbf6hp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\PHP\xiangmu\bick\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\PHP\xiangmu\bick\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-20T08:49:27+08:00 ] 0.0.0.0 GET /bick/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] localhost/bick/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.185754s][吞吐率：5.38req/s] [内存消耗：2,221.36kb] [文件加载：43]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3371.0 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/bick/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984; PHPSESSID=9c1hdhtko4h08k6kpg1pbf6hp1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-20T08:49:33+08:00 ] 0.0.0.0 GET /bick/public/admin/authrule/lst
+[ info ] localhost/bick/public/admin/authrule/lst [运行时间：0.309704s][吞吐率：3.23req/s] [内存消耗：4,753.29kb] [文件加载：61]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'authrule',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3371.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/admin/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984; PHPSESSID=9c1hdhtko4h08k6kpg1pbf6hp1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Authrule->lst[ F:\PHP\xiangmu\bick\application\admin\controller\Authrule.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\PHP\xiangmu\bick\public/../application/admin\view\authrule\lst.html [ array (
+  0 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010848s ] mysql:host=127.0.0.1;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.023543s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000765s ]
+---------------------------------------------------------------
+[ 2018-04-20T08:49:34+08:00 ] 0.0.0.0 GET /bick/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] localhost/bick/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.058978s][吞吐率：16.96req/s] [内存消耗：2,221.32kb] [文件加载：43]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3371.0 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/bick/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984; PHPSESSID=9c1hdhtko4h08k6kpg1pbf6hp1',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-20T09:56:56+08:00 ] 0.0.0.0 GET /bick/public/admin/authrule/add
+[ info ] localhost/bick/public/admin/authrule/add [运行时间：2.699972s][吞吐率：0.37req/s] [内存消耗：4,694.20kb] [文件加载：61]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'authrule',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3371.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/admin/authrule/lst',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984; PHPSESSID=9c1hdhtko4h08k6kpg1pbf6hp1; pgv_si=s4030780416',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Authrule->add[ F:\PHP\xiangmu\bick\application\admin\controller\Authrule.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\PHP\xiangmu\bick\public/../application/admin\view\authrule\add.html [ array (
+  0 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.828602s ] mysql:host=127.0.0.1;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.661132s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.020021s ]
+---------------------------------------------------------------
+[ 2018-04-20T09:56:57+08:00 ] 0.0.0.0 GET /bick/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] localhost/bick/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.396187s][吞吐率：2.52req/s] [内存消耗：2,221.35kb] [文件加载：43]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3371.0 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/bick/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984; PHPSESSID=9c1hdhtko4h08k6kpg1pbf6hp1; pgv_si=s4030780416',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-20T10:01:41+08:00 ] 0.0.0.0 GET /bick/public/admin/authrule/add
+[ info ] localhost/bick/public/admin/authrule/add [运行时间：0.206671s][吞吐率：4.84req/s] [内存消耗：4,695.26kb] [文件加载：61]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'authrule',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3371.0 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/admin/authrule/lst',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984; PHPSESSID=9c1hdhtko4h08k6kpg1pbf6hp1; pgv_si=s4030780416',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Authrule->add[ F:\PHP\xiangmu\bick\application\admin\controller\Authrule.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\PHP\xiangmu\bick\public/../application/admin\view\authrule\add.html [ array (
+  0 => 'arr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013680s ] mysql:host=127.0.0.1;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.030444s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.001243s ]
+---------------------------------------------------------------
+[ 2018-04-20T10:01:41+08:00 ] 0.0.0.0 GET /bick/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] localhost/bick/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.085677s][吞吐率：11.67req/s] [内存消耗：2,221.41kb] [文件加载：43]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3371.0 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/bick/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984; PHPSESSID=9c1hdhtko4h08k6kpg1pbf6hp1; pgv_si=s4030780416',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File

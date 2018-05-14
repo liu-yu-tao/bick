@@ -1,0 +1,220 @@
+---------------------------------------------------------------
+[ 2018-05-01T02:06:46+08:00 ] 0.0.0.0 GET /bick/public/index/index
+[ info ] localhost/bick/public/index/index [运行时间：3.921469s][吞吐率：0.26req/s] [内存消耗：4,252.80kb] [文件加载：57]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+[F:\PHP\xiangmu\bick\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-01T02:06:54+08:00 ] 0.0.0.0 GET /bick/public/index/index
+[ info ] localhost/bick/public/index/index [运行时间：1.111109s][吞吐率：0.90req/s] [内存消耗：4,252.54kb] [文件加载：57]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+[F:\PHP\xiangmu\bick\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-01T02:07:44+08:00 ] 0.0.0.0 GET /bick/public/index/index
+[ info ] localhost/bick/public/index/index [运行时间：1.172552s][吞吐率：0.85req/s] [内存消耗：4,252.54kb] [文件加载：57]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+[F:\PHP\xiangmu\bick\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-05-01T02:08:13+08:00 ] 0.0.0.0 GET /bick/public/index/index
+[ info ] localhost/bick/public/index/index [运行时间：0.932851s][吞吐率：1.07req/s] [内存消耗：4,725.94kb] [文件加载：61]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\PHP\xiangmu\bick\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\PHP\xiangmu\bick\public/../application/index\view\index\index.html [ array (
+  0 => 'arr',
+  1 => 'cateArr',
+  2 => 'aee',
+  3 => 'ass',
+  4 => 'recAdd',
+  5 => 'art',
+  6 => 'right',
+  7 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.058362s ] mysql:host=127.0.0.1;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.041999s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_conf` [ RunTime:0.007582s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.115369s ]
+[ sql ] [ SQL ] SELECT `id`,`catename`,`type`,`pid` FROM `bk_cate` [ RunTime:0.018227s ]
+[ sql ] [ SQL ] SELECT `id`,`catename`,`type` FROM `bk_cate` WHERE  (  rec_bottom=1 ) [ RunTime:0.002251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.113981s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`thumb` FROM `bk_article` WHERE  (  rec=1 ) LIMIT 4 [ RunTime:0.028079s ]
+[ sql ] [ SQL ] SELECT `id`,`catename`,`type` FROM `bk_cate` WHERE  (  rec_index=1 ) [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`catename` FROM `bk_article` `a` INNER JOIN `bk_cate` `b` ON `a`.`cateid`=`b`.`id` ORDER BY `time`  desc LIMIT 10 [ RunTime:0.001691s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title`,`click` FROM `bk_article` ORDER BY `click`  desc LIMIT 5 [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_link` [ RunTime:0.119899s ]
+[ sql ] [ SQL ] SELECT `title`,`url`,`desc` FROM `bk_link` [ RunTime:0.003192s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_conf` [ RunTime:0.004015s ]
+[ sql ] [ SQL ] SELECT `id`,`catename`,`type`,`pid` FROM `bk_cate` [ RunTime:0.001397s ]
+---------------------------------------------------------------
+[ 2018-05-01T02:08:14+08:00 ] 0.0.0.0 GET /bick/public/static/index/images/focus-bg2.png
+[ info ] localhost/bick/public/static/index/images/focus-bg2.png [运行时间：0.130480s][吞吐率：7.66req/s] [内存消耗：2,220.35kb] [文件加载：43]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-01T02:08:14+08:00 ] 0.0.0.0 GET /bick/public/static/index/images/sitemap-dot.gif
+[ info ] localhost/bick/public/static/index/images/sitemap-dot.gif [运行时间：0.064264s][吞吐率：15.56req/s] [内存消耗：2,220.63kb] [文件加载：43]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-01T02:08:14+08:00 ] 0.0.0.0 GET /bick/public/static/index/images/scroll.png
+[ info ] localhost/bick/public/static/index/images/scroll.png [运行时间：0.053645s][吞吐率：18.64req/s] [内存消耗：2,220.34kb] [文件加载：43]
+[ info ] [ LANG ] F:\PHP\xiangmu\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/bick/public/static/index/style/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'Phpstorm-e00e1f4d=ca750f83-cc19-4427-a556-8045ab72843e; pgv_pvi=3498281984',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

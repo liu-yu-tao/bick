@@ -1,0 +1,60 @@
+[ 2016-11-14T23:10:20+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php
+[ log ] 127.0.0.1/bick/public/index.php [运行时间：0.967055s][吞吐率：1.03req/s] [内存消耗：1,237.02kb] [文件加载：42]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464; PHPSESSID=7bnb5e86dqcadrm8vns8nlhbo5; Hm_lpvt_d7e112eaeea65921aeaadcc0af8f2853=1479135489',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpStudy\WWW\bick\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-14T23:10:27+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.089005s][吞吐率：11.24req/s] [内存消耗：1,217.57kb] [文件加载：43]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479019744,1479043052,1479131464; PHPSESSID=7bnb5e86dqcadrm8vns8nlhbo5; Hm_lpvt_d7e112eaeea65921aeaadcc0af8f2853=1479135489',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

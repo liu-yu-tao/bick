@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2018-04-02T11:15:59+08:00 ] 0.0.0.0 GET /bick/public/index/index
+[ error ] [0]模板文件不存在:F:\PHP\xiangmu\bick\public/../application/index\view\index\index.html
+---------------------------------------------------------------
+[ 2018-04-02T12:06:28+08:00 ] 0.0.0.0 GET /bick/public/index/index/index
+[ error ] [0]模板文件不存在:F:\PHP\xiangmu\bick\public/../application/index\view\index\index.html

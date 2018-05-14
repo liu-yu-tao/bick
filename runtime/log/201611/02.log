@@ -1,0 +1,2359 @@
+[ 2016-11-02T22:24:56+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php
+[ log ] 127.0.0.1/bick/public/index.php [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：1,032.70kb] [文件加载：36]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpStudy\WWW\bick\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:27:23+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php
+[ log ] 127.0.0.1/bick/public/index.php [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,032.68kb] [文件加载：36]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\phpStudy\WWW\bick\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:31:18+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.075005s][吞吐率：13.33req/s] [内存消耗：1,058.34kb] [文件加载：39]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:31:39+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,032.68kb] [文件加载：36]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:31:51+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,032.80kb] [文件加载：36]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:33:13+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,237.05kb] [文件加载：44]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:F:\phpStudy\WWW\bick\public/../application/admin\view\index\index.html[F:\phpStudy\WWW\bick\thinkphp\library\think\view\driver\Think.php:78]
+
+---------------------------------------------------------------
+[ 2016-11-02T22:33:31+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,339.84kb] [文件加载：44]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:33:31+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/bootstrap.css
+[ log ] 127.0.0.1/bick/public/index.php/style/bootstrap.css [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,056.84kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'bootstrap.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:33:31+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/animate.css
+[ log ] 127.0.0.1/bick/public/index.php/style/animate.css [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,056.85kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'animate.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:33:31+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/jquery_002.js
+[ log ] 127.0.0.1/bick/public/index.php/style/jquery_002.js [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,056.81kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'jquery_002.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:33:31+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/bootstrap.js
+[ log ] 127.0.0.1/bick/public/index.php/style/bootstrap.js [运行时间：0.024002s][吞吐率：41.66req/s] [内存消耗：1,056.81kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'bootstrap.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:33:31+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/jquery.js
+[ log ] 127.0.0.1/bick/public/index.php/style/jquery.js [运行时间：0.015001s][吞吐率：66.66req/s] [内存消耗：1,056.71kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'jquery.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:33:31+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/beyond.js
+[ log ] 127.0.0.1/bick/public/index.php/style/beyond.js [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,056.71kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'beyond.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:33:32+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/font-awesome.css
+[ log ] 127.0.0.1/bick/public/index.php/style/font-awesome.css [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,056.82kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'font-awesome.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:33:32+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/typicons.css
+[ log ] 127.0.0.1/bick/public/index.php/style/typicons.css [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,056.81kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'typicons.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:33:32+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/beyond.css
+[ log ] 127.0.0.1/bick/public/index.php/style/beyond.css [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,056.82kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'beyond.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:33:32+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/weather-icons.css
+[ log ] 127.0.0.1/bick/public/index.php/style/weather-icons.css [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,056.80kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'weather-icons.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:33:32+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/demo.css
+[ log ] 127.0.0.1/bick/public/index.php/style/demo.css [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,056.73kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'demo.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:33:32+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/images/logo.png
+[ log ] 127.0.0.1/bick/public/index.php/images/logo.png [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,056.70kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'logo.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:33:32+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/images/adam-jansen.jpg
+[ log ] 127.0.0.1/bick/public/index.php/images/adam-jansen.jpg [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,056.82kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'adam-jansen.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:35:54+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,247.38kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:F:\phpStudy\WWW\bick\public/../application/admin\view\index\index.html[F:\phpStudy\WWW\bick\thinkphp\library\think\view\driver\Think.php:78]
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:11+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：1,350.18kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:11+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/font-awesome.css
+[ log ] 127.0.0.1/bick/public/index.php/style/font-awesome.css [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,056.93kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'font-awesome.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:11+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/weather-icons.css
+[ log ] 127.0.0.1/bick/public/index.php/style/weather-icons.css [运行时间：0.020002s][吞吐率：49.99req/s] [内存消耗：1,057.01kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'weather-icons.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:11+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/animate.css
+[ log ] 127.0.0.1/bick/public/index.php/style/animate.css [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,056.91kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'animate.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:11+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/jquery_002.js
+[ log ] 127.0.0.1/bick/public/index.php/style/jquery_002.js [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,056.95kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'jquery_002.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:11+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/bootstrap.js
+[ log ] 127.0.0.1/bick/public/index.php/style/bootstrap.js [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,056.95kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'bootstrap.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+-
+[ 2016-11-02T22:36:11+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/jquery.js
+[ log ] 127.0.0.1/bick/public/index.php/style/jquery.js [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,056.87kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'jquery.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:11+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/beyond.js
+[ log ] 127.0.0.1/bick/public/index.php/style/beyond.js [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,056.87kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'beyond.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:11+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/bootstrap.css
+[ log ] 127.0.0.1/bick/public/index.php/style/bootstrap.css [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,056.91kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'bootstrap.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:11+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/jquery.js
+[ log ] 127.0.0.1/bick/public/index.php/style/jquery.js [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,056.87kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'jquery.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:11+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/beyond.js
+[ log ] 127.0.0.1/bick/public/index.php/style/beyond.js [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,056.87kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'beyond.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:12+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/typicons.css
+[ log ] 127.0.0.1/bick/public/index.php/style/typicons.css [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,056.91kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'typicons.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:12+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/beyond.css
+[ log ] 127.0.0.1/bick/public/index.php/style/beyond.css [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：1,056.97kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'beyond.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:12+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/images/logo.png
+[ log ] 127.0.0.1/bick/public/index.php/images/logo.png [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,056.70kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'logo.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:12+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/images/adam-jansen.jpg
+[ log ] 127.0.0.1/bick/public/index.php/images/adam-jansen.jpg [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,056.82kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'adam-jansen.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:58+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,216.58kb] [文件加载：43]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:58+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/beyond.css
+[ log ] 127.0.0.1/bick/public/index.php/style/beyond.css [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,056.97kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'beyond.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:58+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/typicons.css
+[ log ] 127.0.0.1/bick/public/index.php/style/typicons.css [运行时间：0.032001s][吞吐率：31.25req/s] [内存消耗：1,056.91kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'typicons.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:58+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/font-awesome.css
+[ log ] 127.0.0.1/bick/public/index.php/style/font-awesome.css [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,056.93kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'font-awesome.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:58+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/bootstrap.js
+[ log ] 127.0.0.1/bick/public/index.php/style/bootstrap.js [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,056.95kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'bootstrap.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:58+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/demo.css
+[ log ] 127.0.0.1/bick/public/index.php/style/demo.css [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,056.88kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'demo.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:58+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/jquery.js
+[ log ] 127.0.0.1/bick/public/index.php/style/jquery.js [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,056.87kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'jquery.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:58+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/animate.css
+[ log ] 127.0.0.1/bick/public/index.php/style/animate.css [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,056.91kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'animate.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:58+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/bootstrap.css
+[ log ] 127.0.0.1/bick/public/index.php/style/bootstrap.css [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：1,056.91kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'bootstrap.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:58+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/beyond.js
+[ log ] 127.0.0.1/bick/public/index.php/style/beyond.js [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,056.87kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'beyond.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:59+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/weather-icons.css
+[ log ] 127.0.0.1/bick/public/index.php/style/weather-icons.css [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,057.01kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'weather-icons.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:59+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/jquery_002.js
+[ log ] 127.0.0.1/bick/public/index.php/style/jquery_002.js [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,056.95kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'jquery_002.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:59+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/images/logo.png
+[ log ] 127.0.0.1/bick/public/index.php/images/logo.png [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,056.70kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'logo.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:59+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/images/adam-jansen.jpg
+[ log ] 127.0.0.1/bick/public/index.php/images/adam-jansen.jpg [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,056.82kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'adam-jansen.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:59+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/bootstrap.js
+[ log ] 127.0.0.1/bick/public/index.php/style/bootstrap.js [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,056.95kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'bootstrap.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:59+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/jquery.js
+[ log ] 127.0.0.1/bick/public/index.php/style/jquery.js [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,056.87kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'jquery.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:36:59+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/beyond.js
+[ log ] 127.0.0.1/bick/public/index.php/style/beyond.js [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,056.87kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'beyond.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:42:38+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,344.55kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:42:38+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/jquery_002.js
+[ log ] 127.0.0.1/bick/public/index.php/style/jquery_002.js [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,056.95kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'jquery_002.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:42:38+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/font-awesome.css
+[ log ] 127.0.0.1/bick/public/index.php/style/font-awesome.css [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,056.93kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'font-awesome.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:42:38+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/beyond.css
+[ log ] 127.0.0.1/bick/public/index.php/style/beyond.css [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,056.97kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'beyond.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:42:38+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/demo.css
+[ log ] 127.0.0.1/bick/public/index.php/style/demo.css [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,056.88kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'demo.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:42:38+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/typicons.css
+[ log ] 127.0.0.1/bick/public/index.php/style/typicons.css [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,056.91kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'typicons.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:42:39+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/bootstrap.js
+[ log ] 127.0.0.1/bick/public/index.php/style/bootstrap.js [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,056.95kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'bootstrap.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:42:40+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/jquery.js
+[ log ] 127.0.0.1/bick/public/index.php/style/jquery.js [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,056.89kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'jquery.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:42:40+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/weather-icons.css
+[ log ] 127.0.0.1/bick/public/index.php/style/weather-icons.css [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,057.01kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'weather-icons.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:42:40+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/beyond.js
+[ log ] 127.0.0.1/bick/public/index.php/style/beyond.js [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,056.89kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'beyond.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:42:40+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/animate.css
+[ log ] 127.0.0.1/bick/public/index.php/style/animate.css [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,056.98kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'animate.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:42:40+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/images/logo.png
+[ log ] 127.0.0.1/bick/public/index.php/images/logo.png [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,056.70kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'logo.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:42:40+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/images/adam-jansen.jpg
+[ log ] 127.0.0.1/bick/public/index.php/images/adam-jansen.jpg [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,056.82kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'adam-jansen.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:43:01+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,344.66kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:43:01+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/images/adam-jansen.jpg
+[ log ] 127.0.0.1/bick/public/index.php/images/adam-jansen.jpg [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,056.82kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'adam-jansen.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:43:01+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/images/logo.png
+[ log ] 127.0.0.1/bick/public/index.php/images/logo.png [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：1,056.70kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'logo.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:43:01+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/bootstrap.js
+[ log ] 127.0.0.1/bick/public/index.php/style/bootstrap.js [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,056.95kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'bootstrap.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:43:01+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/beyond.js
+[ log ] 127.0.0.1/bick/public/index.php/style/beyond.js [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：1,056.87kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'beyond.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:43:01+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/jquery_002.js
+[ log ] 127.0.0.1/bick/public/index.php/style/jquery_002.js [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,056.95kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'jquery_002.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:43:01+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/jquery.js
+[ log ] 127.0.0.1/bick/public/index.php/style/jquery.js [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,056.87kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'jquery.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:43:01+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/bootstrap.js
+[ log ] 127.0.0.1/bick/public/index.php/style/bootstrap.js [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,056.95kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'bootstrap.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:43:01+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/jquery.js
+[ log ] 127.0.0.1/bick/public/index.php/style/jquery.js [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,056.87kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'jquery.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:43:01+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/beyond.js
+[ log ] 127.0.0.1/bick/public/index.php/style/beyond.js [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,056.87kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'beyond.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:44:08+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,344.75kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:44:08+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/beyond.js
+[ log ] 127.0.0.1/bick/public/index.php/style/beyond.js [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,056.87kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'beyond.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:44:08+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/jquery.js
+[ log ] 127.0.0.1/bick/public/index.php/style/jquery.js [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,056.87kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'jquery.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:44:08+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/jquery_002.js
+[ log ] 127.0.0.1/bick/public/index.php/style/jquery_002.js [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：1,056.95kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'jquery_002.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:44:08+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/bootstrap.js
+[ log ] 127.0.0.1/bick/public/index.php/style/bootstrap.js [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,056.95kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'bootstrap.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:44:08+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/bootstrap.js
+[ log ] 127.0.0.1/bick/public/index.php/style/bootstrap.js [运行时间：0.020002s][吞吐率：50.00req/s] [内存消耗：1,056.95kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'bootstrap.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:44:08+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/jquery.js
+[ log ] 127.0.0.1/bick/public/index.php/style/jquery.js [运行时间：0.021002s][吞吐率：47.61req/s] [内存消耗：1,056.87kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'jquery.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:44:08+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/style/beyond.js
+[ log ] 127.0.0.1/bick/public/index.php/style/beyond.js [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,056.87kb] [文件加载：38]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'style',
+    1 => 'beyond.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:44:46+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,344.79kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:44:52+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,217.07kb] [文件加载：43]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-02T22:45:10+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,344.82kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

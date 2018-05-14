@@ -1,0 +1,2741 @@
+[ 2016-11-28T12:33:13+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,302.49kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-28T12:33:16+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/login/index.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/login/index.html [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：1,258.83kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=00suq0552bs8hncc8557e15ag0',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ F:\phpStudy\WWW\bick\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\login\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-28T12:33:20+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/login/index.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/login/index.html [运行时间：0.096006s][吞吐率：10.42req/s] [内存消耗：1,975.77kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '26',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=00suq0552bs8hncc8557e15ag0',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ F:\phpStudy\WWW\bick\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` WHERE  `name` = 'admin' LIMIT 1    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T12:33:23+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/index/index.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/index/index.html [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：1,307.27kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=00suq0552bs8hncc8557e15ag0',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-28T12:33:25+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/admin/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/admin/lst.html [运行时间：0.139008s][吞吐率：7.19req/s] [内存消耗：2,085.77kb] [文件加载：60]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=00suq0552bs8hncc8557e15ag0',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_admin` LIMIT 1   [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` LIMIT 0,5   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T12:33:29+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/cate/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/cate/lst.html [运行时间：0.099005s][吞吐率：10.10req/s] [内存消耗：2,022.93kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=00suq0552bs8hncc8557e15ag0',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.034002s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T12:49:43+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/cate/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/cate/lst.html [运行时间：0.177010s][吞吐率：5.65req/s] [内存消耗：2,022.87kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=00suq0552bs8hncc8557e15ag0',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.129007s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T13:32:02+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin
+[ log ] 127.0.0.1/bick/public/index.php/admin [运行时间：0.172010s][吞吐率：5.81req/s] [内存消耗：1,302.50kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-28T13:32:05+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/login/index.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/login/index.html [运行时间：0.163009s][吞吐率：6.13req/s] [内存消耗：1,258.83kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ F:\phpStudy\WWW\bick\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\login\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-28T13:32:11+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/login/index.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/login/index.html [运行时间：1.313075s][吞吐率：0.76req/s] [内存消耗：1,903.80kb] [文件加载：53]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '26',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ F:\phpStudy\WWW\bick\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+[F:\phpStudy\WWW\bick\thinkphp\library\think\db\Connection.php:282]
+
+---------------------------------------------------------------
+[ 2016-11-28T13:32:35+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/
+[ log ] 127.0.0.1/bick/public/index.php/admin/ [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,302.38kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-28T13:32:38+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/login/index.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/login/index.html [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,258.83kb] [文件加载：45]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ F:\phpStudy\WWW\bick\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\login\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-28T13:32:49+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/login/index.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/login/index.html [运行时间：0.071005s][吞吐率：14.08req/s] [内存消耗：1,975.77kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '26',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ F:\phpStudy\WWW\bick\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` WHERE  `name` = 'admin' LIMIT 1    [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T13:32:52+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/index/index.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/index/index.html [运行时间：0.101006s][吞吐率：9.90req/s] [内存消耗：1,307.27kb] [文件加载：47]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\phpStudy\WWW\bick\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-28T15:50:57+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/cate/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/cate/lst.html [运行时间：0.055004s][吞吐率：18.18req/s] [内存消耗：2,022.93kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T16:03:06+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/cate/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/cate/lst.html [运行时间：0.098005s][吞吐率：10.20req/s] [内存消耗：2,164.95kb] [文件加载：58]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\cate->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T16:03:11+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/lst.html [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：1,474.50kb] [文件加载：53]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: cateres[F:\phpStudy\WWW\bick\runtime\temp\e43285f3c0db10082c22f73abc57d724.php:207]
+
+---------------------------------------------------------------
+[ 2016-11-28T16:05:40+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/lst.html [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,436.82kb] [文件加载：49]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-28T16:06:01+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/lst.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/lst.html [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,436.47kb] [文件加载：49]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lst[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-28T16:06:17+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,474.55kb] [文件加载：53]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: cateres[F:\phpStudy\WWW\bick\runtime\temp\bac1671c2621b8861008b5f03f4c85b0.php:205]
+
+---------------------------------------------------------------
+[ 2016-11-28T16:08:14+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.057004s][吞吐率：17.54req/s] [内存消耗：1,997.84kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T16:08:49+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：2,129.30kb] [文件加载：58]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T16:10:36+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：2,132.80kb] [文件加载：58]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T16:11:39+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：2,133.75kb] [文件加载：58]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T16:11:53+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,133.79kb] [文件加载：58]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T16:12:16+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：2,133.75kb] [文件加载：58]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T16:17:10+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：2,150.13kb] [文件加载：58]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T16:18:02+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.068004s][吞吐率：14.71req/s] [内存消耗：2,150.87kb] [文件加载：58]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T16:18:19+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：2,150.80kb] [文件加载：58]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T16:18:40+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：2,150.80kb] [文件加载：58]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T16:19:15+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：2,132.67kb] [文件加载：58]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T17:27:52+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.079005s][吞吐率：12.66req/s] [内存消耗：2,132.77kb] [文件加载：58]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T17:29:04+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：1,998.48kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T17:29:26+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,254.43kb] [文件加载：44]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '107',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '2',
+  'keywords' => '3',
+  'desc' => '4',
+  'thumb' => '20151020112858801.jpg',
+  'pid' => '18',
+  'content' => '<p>5<br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-11-28T17:33:28+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：1,998.73kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T17:33:32+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,998.80kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T17:33:45+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.083005s][吞吐率：12.05req/s] [内存消耗：1,776.91kb] [文件加载：54]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '122',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '2',
+  'keywords' => '3',
+  'desc' => '4',
+  'thumb' => 'acd0d1497c1d2fc7cfa3bd7077b9d7f1.jpg',
+  'pid' => '19',
+  'content' => '<p>5<br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.009000s ]
+[ error ] [0]数据表字段不存在:[desc][F:\phpStudy\WWW\bick\thinkphp\library\think\db\Builder.php:95]
+
+---------------------------------------------------------------
+[ 2016-11-28T17:33:57+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：1,998.73kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T17:34:35+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.057004s][吞吐率：17.54req/s] [内存消耗：1,777.54kb] [文件加载：54]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '107',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '2',
+  'keywords' => '3',
+  'desc' => '4',
+  'thumb' => '20151020112858801.jpg',
+  'pid' => '19',
+  'content' => '<p>5<br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.014000s ]
+[ error ] [0]数据表字段不存在:[pid][F:\phpStudy\WWW\bick\thinkphp\library\think\db\Builder.php:95]
+
+---------------------------------------------------------------
+[ 2016-11-28T17:35:12+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.067003s][吞吐率：14.92req/s] [内存消耗：2,133.59kb] [文件加载：58]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T17:35:15+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.063003s][吞吐率：15.87req/s] [内存消耗：1,998.80kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T17:35:26+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：1,758.45kb] [文件加载：51]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '125',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '2',
+  'keywords' => '3',
+  'desc' => '4',
+  'thumb' => 'acd0d1497c1d2fc7cfa3bd7077b9d7f1.jpg',
+  'cateid' => '19',
+  'content' => '<p>5<br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] INSERT INTO `bk_article` (`title` , `author` , `keywords` , `desc` , `thumb` , `cateid` , `content`) VALUES ('1' , '2' , '3' , '4' , 'acd0d1497c1d2fc7cfa3bd7077b9d7f1.jpg' , 19 , '<p>5<br/></p>')         [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T17:37:52+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,998.69kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T17:37:54+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.064003s][吞吐率：15.62req/s] [内存消耗：1,998.84kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T17:38:08+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,786.30kb] [文件加载：50]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '110',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '2',
+  'keywords' => '3',
+  'desc' => '4',
+  'thumb' => '20151020112858801.jpg',
+  'cateid' => '19',
+  'content' => '<p>5<br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.013001s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T17:56:17+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,785.31kb] [文件加载：50]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '110',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '2',
+  'keywords' => '3',
+  'desc' => '4',
+  'thumb' => '20151020112858801.jpg',
+  'cateid' => '19',
+  'content' => '<p>5<br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.012001s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T18:15:17+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：1,998.69kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T18:15:19+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,998.84kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T18:15:46+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：1,849.32kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '125',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '2',
+  'keywords' => '3',
+  'desc' => '4',
+  'thumb' => 'acd0d1497c1d2fc7cfa3bd7077b9d7f1.jpg',
+  'cateid' => '19',
+  'content' => '<p>5<br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.015001s ]
+[ error ] [1]Call to a member function move() on a non-object[F:\phpStudy\WWW\bick\application\admin\model\Article.php:12]
+
+---------------------------------------------------------------
+[ 2016-11-28T18:17:00+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,998.77kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T18:17:14+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,849.57kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '125',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '2',
+  'keywords' => '3',
+  'desc' => '4',
+  'thumb' => 'acd0d1497c1d2fc7cfa3bd7077b9d7f1.jpg',
+  'cateid' => '19',
+  'content' => '<p>5<br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.010001s ]
+[ error ] [1]Call to a member function move() on a non-object[F:\phpStudy\WWW\bick\application\admin\model\Article.php:13]
+
+---------------------------------------------------------------
+[ 2016-11-28T18:20:18+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,998.77kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T18:20:38+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,785.96kb] [文件加载：50]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '129',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '2',
+  'keywords' => '3',
+  'desc' => '4',
+  'thumb' => 'QQ截图20160513103541.png',
+  'cateid' => '13',
+  'content' => '<p>111<br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.013001s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T18:21:22+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,998.77kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T18:21:34+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.056004s][吞吐率：17.86req/s] [内存消耗：1,785.16kb] [文件加载：50]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '125',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '2',
+  'keywords' => '3',
+  'desc' => '4',
+  'thumb' => 'acd0d1497c1d2fc7cfa3bd7077b9d7f1.jpg',
+  'cateid' => '19',
+  'content' => '<p>5<br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.014001s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T18:21:49+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：1,998.77kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T18:22:10+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,785.10kb] [文件加载：50]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '95',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '1',
+  'keywords' => '1',
+  'desc' => '1',
+  'thumb' => '11.jpg',
+  'cateid' => '17',
+  'content' => '<p>1<br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.009000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T18:22:28+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,998.77kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T18:23:43+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,998.80kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005001s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.003001s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T18:24:04+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,867.25kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '95',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '1',
+  'keywords' => '1',
+  'desc' => '1',
+  'thumb' => '11.jpg',
+  'cateid' => '21',
+  'content' => '<p>1<br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.013001s ]
+[ error ] [1]Call to a member function file() on a non-object[F:\phpStudy\WWW\bick\application\admin\model\Article.php:12]
+
+---------------------------------------------------------------
+[ 2016-11-28T18:24:54+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,998.77kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T18:24:56+08:00 ] 127.0.0.1 127.0.0.1 GET /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,998.84kb] [文件加载：56]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\phpStudy\WWW\bick\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY sort desc  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-11-28T18:25:06+08:00 ] 127.0.0.1 127.0.0.1 POST /bick/public/index.php/admin/article/add.html
+[ log ] 127.0.0.1/bick/public/index.php/admin/article/add.html [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,849.05kb] [文件加载：55]
+[ info ] [ LANG ] F:\phpStudy\WWW\bick\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '95',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'Hm_lvt_d7e112eaeea65921aeaadcc0af8f2853=1479379831,1479566738,1479645572,1479721473; PHPSESSID=ul2ituhbj0o8fckr9pv2iv8841',
+  'referer' => 'http://127.0.0.1/bick/public/index.php/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '2',
+  'keywords' => '2',
+  'desc' => '2',
+  'thumb' => '11.jpg',
+  'cateid' => '19',
+  'content' => '<p>2<br/></p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ F:\phpStudy\WWW\bick\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=bick;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.015001s ]
+[ error ] [1]Call to protected think\Request::__construct() from context 'app\admin\model\Article'[F:\phpStudy\WWW\bick\application\admin\model\Article.php:12]
+
+---------------------------------------------------------------
